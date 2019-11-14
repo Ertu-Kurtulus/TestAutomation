@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2856" started-at="2019-11-14T17:50:51Z" finished-at="2019-11-14T17:50:54Z">
+  <suite name="Suite" duration-ms="2684" started-at="2019-11-14T23:07:02Z" finished-at="2019-11-14T23:07:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2856" started-at="2019-11-14T17:50:51Z" finished-at="2019-11-14T17:50:54Z">
+    <test name="Test" duration-ms="2684" started-at="2019-11-14T23:07:02Z" finished-at="2019-11-14T23:07:05Z">
       <class name="restAssuredAutomation.Movie_GET_MovieDetailsWithID">
-        <test-method status="PASS" signature="GetMovieDetailsWithID()[pri:0, instance:restAssuredAutomation.Movie_GET_MovieDetailsWithID@27efef64]" name="GetMovieDetailsWithID" duration-ms="281" started-at="2019-11-14T17:50:54Z" finished-at="2019-11-14T17:50:54Z">
+        <test-method status="PASS" signature="GetMovieDetailsWithID()[pri:3, instance:restAssuredAutomation.Movie_GET_MovieDetailsWithID@27efef64]" name="GetMovieDetailsWithID" duration-ms="311" started-at="2019-11-14T23:07:05Z" finished-at="2019-11-14T23:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetMovieDetailsWithID -->
       </class> <!-- restAssuredAutomation.Movie_GET_MovieDetailsWithID -->
       <class name="restAssuredAutomation.Movie_GET_ID">
-        <test-method status="PASS" signature="GetMovieID()[pri:0, instance:restAssuredAutomation.Movie_GET_ID@59f99ea]" name="GetMovieID" duration-ms="809" started-at="2019-11-14T17:50:53Z" finished-at="2019-11-14T17:50:54Z">
+        <test-method status="PASS" signature="GetMovieID()[pri:2, instance:restAssuredAutomation.Movie_GET_ID@ae45eb6]" name="GetMovieID" duration-ms="782" started-at="2019-11-14T23:07:04Z" finished-at="2019-11-14T23:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetMovieID -->
       </class> <!-- restAssuredAutomation.Movie_GET_ID -->
       <class name="restAssuredAutomation.Movie_GET_Request">
-        <test-method status="PASS" signature="getCheckServerStatus()[pri:0, instance:restAssuredAutomation.Movie_GET_Request@ae45eb6]" name="getCheckServerStatus" duration-ms="1725" started-at="2019-11-14T17:50:51Z" finished-at="2019-11-14T17:50:53Z">
+        <test-method status="PASS" signature="getCheckServerStatus()[pri:1, instance:restAssuredAutomation.Movie_GET_Request@59f99ea]" name="getCheckServerStatus" duration-ms="1529" started-at="2019-11-14T23:07:02Z" finished-at="2019-11-14T23:07:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCheckServerStatus -->

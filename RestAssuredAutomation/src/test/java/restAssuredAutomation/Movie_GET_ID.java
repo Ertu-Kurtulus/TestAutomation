@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class Movie_GET_ID {
 
-		@Test
+		@Test(priority = 2)
 		public void GetMovieID()
 		{
 			System.out.println("Getting Movie ID and Testing");

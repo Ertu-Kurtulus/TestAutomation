@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class Movie_GET_MovieDetailsWithID {
 
-	@Test
+	@Test(priority = 3)
 	public void GetMovieDetailsWithID()
 	{
 	System.out.println("Searching with ID and Testing Results");
@@ -30,6 +30,7 @@ public class Movie_GET_MovieDetailsWithID {
 	String ResponseBody=response.getBody().asString();
 	System.out.println("Response body is : " + ResponseBody);
 	
+	//JsonPath Object
 	JsonPath jsonpath = response.jsonPath();
 	
 	System.out.println("Movie title is : " + jsonpath.get("Title"));

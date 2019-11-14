@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 public class Movie_GET_Request {
 
 	
-	@Test
+	@Test(priority = 1)
 	void getCheckServerStatus() 
 	{
 		
@@ -25,6 +25,8 @@ public class Movie_GET_Request {
 		
 		//Response Object
 		Response response = httpRequest.request(Method.GET,"/?apikey=204af6a1&s=Harry Potter");
+		
+		
 		
 		//Print Response on console window
 		
